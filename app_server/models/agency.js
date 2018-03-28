@@ -25,4 +25,4 @@ var agencySchema = new mongoose.Schema({
     content: String
 });
 
-mongoose.model('Agency', agencySchema);
+mongoose.model('Agency', agencySchema, 'agency');
